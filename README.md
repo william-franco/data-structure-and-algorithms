@@ -1,6 +1,6 @@
 # Data Structures and Algorithms Using Rust
 
-A collection of 100 self-contained Rust exercises covering algorithms and data structures. Each solution lives in a single file using only the standard library (`std`).
+A hands-on Rust repository for learning and practicing data structures and algorithms. Each solution is self-contained in a single file, uses only the standard library, and can be run independently via Cargo.
 
 Problem statements (in Portuguese) are available in [lista-exercicios-rust.md](lista-exercicios-rust.md).
 
