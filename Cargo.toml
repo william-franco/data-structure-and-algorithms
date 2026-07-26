@@ -1,6 +1,406 @@
 [package]
-name = "data_structure"
+name = "data-structure-and-algorithms"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+
+[[bin]]
+name = "sorting_question_01"
+path = "src/bin/algorithms/sorting/question_01.rs"
+
+[[bin]]
+name = "sorting_question_02"
+path = "src/bin/algorithms/sorting/question_02.rs"
+
+[[bin]]
+name = "sorting_question_03"
+path = "src/bin/algorithms/sorting/question_03.rs"
+
+[[bin]]
+name = "sorting_question_04"
+path = "src/bin/algorithms/sorting/question_04.rs"
+
+[[bin]]
+name = "sorting_question_05"
+path = "src/bin/algorithms/sorting/question_05.rs"
+
+[[bin]]
+name = "sorting_question_06"
+path = "src/bin/algorithms/sorting/question_06.rs"
+
+[[bin]]
+name = "sorting_question_07"
+path = "src/bin/algorithms/sorting/question_07.rs"
+
+[[bin]]
+name = "sorting_question_08"
+path = "src/bin/algorithms/sorting/question_08.rs"
+
+[[bin]]
+name = "sorting_question_09"
+path = "src/bin/algorithms/sorting/question_09.rs"
+
+[[bin]]
+name = "sorting_question_10"
+path = "src/bin/algorithms/sorting/question_10.rs"
+
+[[bin]]
+name = "searching_question_01"
+path = "src/bin/algorithms/searching/question_01.rs"
+
+[[bin]]
+name = "searching_question_02"
+path = "src/bin/algorithms/searching/question_02.rs"
+
+[[bin]]
+name = "searching_question_03"
+path = "src/bin/algorithms/searching/question_03.rs"
+
+[[bin]]
+name = "searching_question_04"
+path = "src/bin/algorithms/searching/question_04.rs"
+
+[[bin]]
+name = "searching_question_05"
+path = "src/bin/algorithms/searching/question_05.rs"
+
+[[bin]]
+name = "searching_question_06"
+path = "src/bin/algorithms/searching/question_06.rs"
+
+[[bin]]
+name = "searching_question_07"
+path = "src/bin/algorithms/searching/question_07.rs"
+
+[[bin]]
+name = "searching_question_08"
+path = "src/bin/algorithms/searching/question_08.rs"
+
+[[bin]]
+name = "searching_question_09"
+path = "src/bin/algorithms/searching/question_09.rs"
+
+[[bin]]
+name = "searching_question_10"
+path = "src/bin/algorithms/searching/question_10.rs"
+
+[[bin]]
+name = "recursion_question_01"
+path = "src/bin/algorithms/recursion-and-backtracking/question_01.rs"
+
+[[bin]]
+name = "recursion_question_02"
+path = "src/bin/algorithms/recursion-and-backtracking/question_02.rs"
+
+[[bin]]
+name = "recursion_question_03"
+path = "src/bin/algorithms/recursion-and-backtracking/question_03.rs"
+
+[[bin]]
+name = "recursion_question_04"
+path = "src/bin/algorithms/recursion-and-backtracking/question_04.rs"
+
+[[bin]]
+name = "recursion_question_05"
+path = "src/bin/algorithms/recursion-and-backtracking/question_05.rs"
+
+[[bin]]
+name = "recursion_question_06"
+path = "src/bin/algorithms/recursion-and-backtracking/question_06.rs"
+
+[[bin]]
+name = "recursion_question_07"
+path = "src/bin/algorithms/recursion-and-backtracking/question_07.rs"
+
+[[bin]]
+name = "recursion_question_08"
+path = "src/bin/algorithms/recursion-and-backtracking/question_08.rs"
+
+[[bin]]
+name = "recursion_question_09"
+path = "src/bin/algorithms/recursion-and-backtracking/question_09.rs"
+
+[[bin]]
+name = "recursion_question_10"
+path = "src/bin/algorithms/recursion-and-backtracking/question_10.rs"
+
+[[bin]]
+name = "dynamic_programming_question_01"
+path = "src/bin/algorithms/dynamic-programming/question_01.rs"
+
+[[bin]]
+name = "dynamic_programming_question_02"
+path = "src/bin/algorithms/dynamic-programming/question_02.rs"
+
+[[bin]]
+name = "dynamic_programming_question_03"
+path = "src/bin/algorithms/dynamic-programming/question_03.rs"
+
+[[bin]]
+name = "dynamic_programming_question_04"
+path = "src/bin/algorithms/dynamic-programming/question_04.rs"
+
+[[bin]]
+name = "dynamic_programming_question_05"
+path = "src/bin/algorithms/dynamic-programming/question_05.rs"
+
+[[bin]]
+name = "dynamic_programming_question_06"
+path = "src/bin/algorithms/dynamic-programming/question_06.rs"
+
+[[bin]]
+name = "dynamic_programming_question_07"
+path = "src/bin/algorithms/dynamic-programming/question_07.rs"
+
+[[bin]]
+name = "dynamic_programming_question_08"
+path = "src/bin/algorithms/dynamic-programming/question_08.rs"
+
+[[bin]]
+name = "dynamic_programming_question_09"
+path = "src/bin/algorithms/dynamic-programming/question_09.rs"
+
+[[bin]]
+name = "dynamic_programming_question_10"
+path = "src/bin/algorithms/dynamic-programming/question_10.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_01"
+path = "src/bin/data_structure/arrays-and-strings/question_01.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_02"
+path = "src/bin/data_structure/arrays-and-strings/question_02.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_03"
+path = "src/bin/data_structure/arrays-and-strings/question_03.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_04"
+path = "src/bin/data_structure/arrays-and-strings/question_04.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_05"
+path = "src/bin/data_structure/arrays-and-strings/question_05.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_06"
+path = "src/bin/data_structure/arrays-and-strings/question_06.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_07"
+path = "src/bin/data_structure/arrays-and-strings/question_07.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_08"
+path = "src/bin/data_structure/arrays-and-strings/question_08.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_09"
+path = "src/bin/data_structure/arrays-and-strings/question_09.rs"
+
+[[bin]]
+name = "arrays_and_strings_question_10"
+path = "src/bin/data_structure/arrays-and-strings/question_10.rs"
+
+[[bin]]
+name = "linked_lists_question_01"
+path = "src/bin/data_structure/linked-lists/question_01.rs"
+
+[[bin]]
+name = "linked_lists_question_02"
+path = "src/bin/data_structure/linked-lists/question_02.rs"
+
+[[bin]]
+name = "linked_lists_question_03"
+path = "src/bin/data_structure/linked-lists/question_03.rs"
+
+[[bin]]
+name = "linked_lists_question_04"
+path = "src/bin/data_structure/linked-lists/question_04.rs"
+
+[[bin]]
+name = "linked_lists_question_05"
+path = "src/bin/data_structure/linked-lists/question_05.rs"
+
+[[bin]]
+name = "linked_lists_question_06"
+path = "src/bin/data_structure/linked-lists/question_06.rs"
+
+[[bin]]
+name = "linked_lists_question_07"
+path = "src/bin/data_structure/linked-lists/question_07.rs"
+
+[[bin]]
+name = "linked_lists_question_08"
+path = "src/bin/data_structure/linked-lists/question_08.rs"
+
+[[bin]]
+name = "linked_lists_question_09"
+path = "src/bin/data_structure/linked-lists/question_09.rs"
+
+[[bin]]
+name = "linked_lists_question_10"
+path = "src/bin/data_structure/linked-lists/question_10.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_01"
+path = "src/bin/data_structure/stacks-and-queues/question_01.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_02"
+path = "src/bin/data_structure/stacks-and-queues/question_02.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_03"
+path = "src/bin/data_structure/stacks-and-queues/question_03.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_04"
+path = "src/bin/data_structure/stacks-and-queues/question_04.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_05"
+path = "src/bin/data_structure/stacks-and-queues/question_05.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_06"
+path = "src/bin/data_structure/stacks-and-queues/question_06.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_07"
+path = "src/bin/data_structure/stacks-and-queues/question_07.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_08"
+path = "src/bin/data_structure/stacks-and-queues/question_08.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_09"
+path = "src/bin/data_structure/stacks-and-queues/question_09.rs"
+
+[[bin]]
+name = "stacks_and_queues_question_10"
+path = "src/bin/data_structure/stacks-and-queues/question_10.rs"
+
+[[bin]]
+name = "trees_question_01"
+path = "src/bin/data_structure/trees/question_01.rs"
+
+[[bin]]
+name = "trees_question_02"
+path = "src/bin/data_structure/trees/question_02.rs"
+
+[[bin]]
+name = "trees_question_03"
+path = "src/bin/data_structure/trees/question_03.rs"
+
+[[bin]]
+name = "trees_question_04"
+path = "src/bin/data_structure/trees/question_04.rs"
+
+[[bin]]
+name = "trees_question_05"
+path = "src/bin/data_structure/trees/question_05.rs"
+
+[[bin]]
+name = "trees_question_06"
+path = "src/bin/data_structure/trees/question_06.rs"
+
+[[bin]]
+name = "trees_question_07"
+path = "src/bin/data_structure/trees/question_07.rs"
+
+[[bin]]
+name = "trees_question_08"
+path = "src/bin/data_structure/trees/question_08.rs"
+
+[[bin]]
+name = "trees_question_09"
+path = "src/bin/data_structure/trees/question_09.rs"
+
+[[bin]]
+name = "trees_question_10"
+path = "src/bin/data_structure/trees/question_10.rs"
+
+[[bin]]
+name = "graphs_question_01"
+path = "src/bin/data_structure/graphs/question_01.rs"
+
+[[bin]]
+name = "graphs_question_02"
+path = "src/bin/data_structure/graphs/question_02.rs"
+
+[[bin]]
+name = "graphs_question_03"
+path = "src/bin/data_structure/graphs/question_03.rs"
+
+[[bin]]
+name = "graphs_question_04"
+path = "src/bin/data_structure/graphs/question_04.rs"
+
+[[bin]]
+name = "graphs_question_05"
+path = "src/bin/data_structure/graphs/question_05.rs"
+
+[[bin]]
+name = "graphs_question_06"
+path = "src/bin/data_structure/graphs/question_06.rs"
+
+[[bin]]
+name = "graphs_question_07"
+path = "src/bin/data_structure/graphs/question_07.rs"
+
+[[bin]]
+name = "graphs_question_08"
+path = "src/bin/data_structure/graphs/question_08.rs"
+
+[[bin]]
+name = "graphs_question_09"
+path = "src/bin/data_structure/graphs/question_09.rs"
+
+[[bin]]
+name = "graphs_question_10"
+path = "src/bin/data_structure/graphs/question_10.rs"
+
+[[bin]]
+name = "hash_tables_question_01"
+path = "src/bin/data_structure/hash-tables/question_01.rs"
+
+[[bin]]
+name = "hash_tables_question_02"
+path = "src/bin/data_structure/hash-tables/question_02.rs"
+
+[[bin]]
+name = "hash_tables_question_03"
+path = "src/bin/data_structure/hash-tables/question_03.rs"
+
+[[bin]]
+name = "hash_tables_question_04"
+path = "src/bin/data_structure/hash-tables/question_04.rs"
+
+[[bin]]
+name = "hash_tables_question_05"
+path = "src/bin/data_structure/hash-tables/question_05.rs"
+
+[[bin]]
+name = "hash_tables_question_06"
+path = "src/bin/data_structure/hash-tables/question_06.rs"
+
+[[bin]]
+name = "hash_tables_question_07"
+path = "src/bin/data_structure/hash-tables/question_07.rs"
+
+[[bin]]
+name = "hash_tables_question_08"
+path = "src/bin/data_structure/hash-tables/question_08.rs"
+
+[[bin]]
+name = "hash_tables_question_09"
+path = "src/bin/data_structure/hash-tables/question_09.rs"
+
+[[bin]]
+name = "hash_tables_question_10"
+path = "src/bin/data_structure/hash-tables/question_10.rs"

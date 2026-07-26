@@ -3,5 +3,5 @@
 version = 4
 
 [[package]]
-name = "data_structure"
+name = "data-structure-and-algorithms"
 version = "0.1.0"
